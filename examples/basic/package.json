@@ -1,0 +1,13 @@
+{
+  "name": "@pglive/example-basic",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@pglive/server": "workspace:*",
+    "@pglive/client": "workspace:*",
+    "pg": "^8"
+  }
+}
